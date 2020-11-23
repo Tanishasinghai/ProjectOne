@@ -1,0 +1,82 @@
+.home{
+    border:1px solid green;
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ margin-left: 20%;
+}
+.navDiv{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Acme', sans-serif;
+    font-size:2rem;
+}
+.imageOne{
+    border-image: url(border.png) 20% round;
+
+}
+
+.navDiv2{
+    border:1px solid rgb(73, 58, 69);
+    border-radius: 1rem;
+    box-shadow: 10px 10px 8px #000000;
+    font-family: 'Kalam', cursive;
+    background: #52c234;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #061700, #52c234);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #061700, #52c234); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color:white;
+    opacity: 0.8;
+}
+.navDiv2:hover{
+    color:grey;
+}
+.navContainer{
+    border:1px solid #000000;
+    border-radius: 1rem;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    background: #56ab2f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+    color:white;
+}
+.navContainer:hover{
+    color:darkgreen;
+}
+.mainBlock{
+    border-radius: 3rem;
+    padding:2rem;
+    color:white;
+
+}
+.sideBlock{
+    border-radius: 3rem;
+    color:black;
+    
+   
+}
+.summaryBlock{
+    border:1px solid #000000;
+    border-radius: 1rem;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    background: #56ab2f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+    color:white;
+    padding:1rem;
+}
+.summaryBlock:hover{
+    color: darkgreen
+
+}
+.footDiv{
+    border:1px solid green;
+    padding-top:1em;
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
